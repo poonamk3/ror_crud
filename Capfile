@@ -6,6 +6,11 @@ require 'capistrano/rails'
 require 'capistrano/bundler'
 require 'capistrano/rvm'
 require 'capistrano/puma'
+
+require 'capistrano/rbenv'
+# require 'capistrano/chruby'
+require 'capistrano/rails/assets'
+require 'capistrano/rails/migrations'
 # require "capistrano/rails/assets"
 # Load the SCM plugin appropriate to your project:
 #
