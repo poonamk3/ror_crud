@@ -59,3 +59,13 @@
 #     auth_methods: %w(publickey password)
 #     # password: "please use keys"
 #   }
+server "13.127.249.226",
+  user: "deploy",
+  roles: %w{web app},
+  ssh_options: {
+    user: "deploy", # overrides user setting above
+    keys: %w(/home/deploy/.ssh/id_rsa),
+    forward_agent: false,
+    auth_methods: %w(publickey password)
+    # password: "please use keys"
+  }

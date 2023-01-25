@@ -1,3 +1,11 @@
+GIT
+  remote: https://github.com/capistrano/rbenv.git
+  revision: 1fdb93a6dd4a4ab3fb786c995055cf6949daf7a4
+  specs:
+    capistrano-rbenv (2.2.0)
+      capistrano (~> 3.1)
+      sshkit (~> 1.3)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -236,9 +244,10 @@ PLATFORMS
 
 DEPENDENCIES
   bootsnap
-  capistrano
+  capistrano (~> 3.0)
   capistrano-bundler
   capistrano-rails
+  capistrano-rbenv!
   capistrano-rvm
   capistrano3-puma
   capybara
