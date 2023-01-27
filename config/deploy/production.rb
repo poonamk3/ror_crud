@@ -69,3 +69,5 @@ server "3.110.124.202",
     auth_methods: %w(publickey password)
     # password: "please use keys"
   }
+set :branch, "master"
+set :rails_env,   "staging"
