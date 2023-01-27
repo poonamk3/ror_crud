@@ -39,7 +39,7 @@
 # set :ssh_options, verify_host_key: :secure
 
 # Change these
-server '13.127.249.226', port: 22, roles: [:web, :app, :db], primary: true
+server '3.110.124.202', port: 22, roles: [:web, :app, :db], primary: true
 # server '172.31.1.8', port: 22, roles: [:web, :app, :db], primary: true
 
 set :repo_url,        'git@github.com:poonamk3/ror_crud.git'
