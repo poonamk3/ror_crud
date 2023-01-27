@@ -6,7 +6,9 @@ require 'capistrano/rails'
 require 'capistrano/bundler'
 require 'capistrano/rvm'
 require 'capistrano/puma'
-
+require 'capistrano/rbenv'
+set :rbenv_type, :user
+set :rbenv_ruby, '2.7.6'
 
 # require 'capistrano/chruby'
 require 'capistrano/rails/assets'
